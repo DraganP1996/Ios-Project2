@@ -18,6 +18,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltB-HO-ZkG">
                                 <rect key="frame" x="107" y="100" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ltB-HO-ZkG" secondAttribute="height" multiplier="2:1" id="PX5-0S-QKp"/>
+                                </constraints>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qXR-57-17B"/>
@@ -25,6 +28,9 @@
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flL-WI-5Pm">
                                 <rect key="frame" x="107" y="230" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="flL-WI-5Pm" secondAttribute="height" multiplier="2:1" id="mbq-2K-raH"/>
+                                </constraints>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a0Z-ml-erT"/>
@@ -32,6 +38,9 @@
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1n-hM-Ejl">
                                 <rect key="frame" x="107" y="360" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="L1n-hM-Ejl" secondAttribute="height" multiplier="2:1" id="OOZ-G6-3nD"/>
+                                </constraints>
                                 <state key="normal" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uDC-ka-d7o"/>
@@ -44,9 +53,12 @@
                             <constraint firstItem="flL-WI-5Pm" firstAttribute="centerX" secondItem="ltB-HO-ZkG" secondAttribute="centerX" id="A1V-cy-B9a"/>
                             <constraint firstItem="ltB-HO-ZkG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="LaO-Ex-2UW"/>
                             <constraint firstItem="flL-WI-5Pm" firstAttribute="top" secondItem="ltB-HO-ZkG" secondAttribute="bottom" constant="30" id="Njy-Ew-I7W"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="L1n-hM-Ejl" secondAttribute="bottom" constant="20" id="PIV-vA-Rg4"/>
+                            <constraint firstItem="L1n-hM-Ejl" firstAttribute="height" secondItem="flL-WI-5Pm" secondAttribute="height" id="XeV-r1-VQs"/>
                             <constraint firstItem="L1n-hM-Ejl" firstAttribute="top" secondItem="flL-WI-5Pm" secondAttribute="bottom" constant="30" id="gtC-9V-ZZg"/>
                             <constraint firstItem="ltB-HO-ZkG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="hyn-bE-l5g"/>
                             <constraint firstItem="L1n-hM-Ejl" firstAttribute="centerX" secondItem="flL-WI-5Pm" secondAttribute="centerX" id="rNf-0R-O4w"/>
+                            <constraint firstItem="flL-WI-5Pm" firstAttribute="height" secondItem="ltB-HO-ZkG" secondAttribute="height" id="vXM-NH-NKC"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WFa-qd-HK3"/>
